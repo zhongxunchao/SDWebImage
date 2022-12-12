@@ -15,3 +15,11 @@
 #if !OS_OBJECT_USE_OBJC
     #error SDWebImage need ARC for dispatch object
 #endif
+
+@implementation SDWebImageCompat
+
+- (void)nullFunction {
+    NSLog(@"nullFunction");
+}
+
+@end

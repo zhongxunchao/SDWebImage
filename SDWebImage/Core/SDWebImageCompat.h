@@ -93,3 +93,9 @@
         dispatch_async(dispatch_get_main_queue(), block);\
     }
 #endif
+
+@interface SDWebImageCompat : NSObject
+
+- (void)nullFunction;
+
+@end
